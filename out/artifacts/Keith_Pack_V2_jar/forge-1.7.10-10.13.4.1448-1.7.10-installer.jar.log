@@ -1,0 +1,128 @@
+Considering library net.minecraftforge:forge:1.7.10-10.13.4.1448-1.7.10: Not Downloading
+Considering library net.minecraft:launchwrapper:1.11: Not Downloading
+Considering library org.ow2.asm:asm-all:5.0.3: Not Downloading
+Considering library com.typesafe.akka:akka-actor_2.11:2.3.3
+Downloading library com.typesafe.akka:akka-actor_2.11:2.3.3
+Unpacking packed file akka-actor_2.11-2.3.3.jar.pack.xz
+  Signed
+  Checksum Length: 140942
+  Total Length:    2606968
+  Temp File:       C:\Users\James\AppData\Local\Temp\art5126751048945729083.pack
+Successfully unpacked packed file akka-actor_2.11-2.3.3.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library com.typesafe:config:1.2.1
+Downloading library com.typesafe:config:1.2.1
+Unpacking packed file config-1.2.1.jar.pack.xz
+  Signed
+  Checksum Length: 12246
+  Total Length:    111476
+  Temp File:       C:\Users\James\AppData\Local\Temp\art4970322590972681774.pack
+Successfully unpacked packed file config-1.2.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-actors-migration_2.11:1.1.0
+Downloading library org.scala-lang:scala-actors-migration_2.11:1.1.0
+Unpacking packed file scala-actors-migration_2.11-1.1.0.jar.pack.xz
+  Signed
+  Checksum Length: 3311
+  Total Length:    52481
+  Temp File:       C:\Users\James\AppData\Local\Temp\art6789899617610645744.pack
+Successfully unpacked packed file scala-actors-migration_2.11-1.1.0.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-compiler:2.11.1
+Downloading library org.scala-lang:scala-compiler:2.11.1
+Unpacking packed file scala-compiler-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 942120
+  Total Length:    9183051
+  Temp File:       C:\Users\James\AppData\Local\Temp\art554977681411055856.pack
+Successfully unpacked packed file scala-compiler-2.11.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+Downloading library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+Unpacking packed file scala-continuations-library_2.11-1.0.2.jar.pack.xz
+  Signed
+  Checksum Length: 2416
+  Total Length:    18871
+  Temp File:       C:\Users\James\AppData\Local\Temp\art7226124502505476603.pack
+Successfully unpacked packed file scala-continuations-library_2.11-1.0.2.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Downloading library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Unpacking packed file scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz
+  Signed
+  Checksum Length: 16815
+  Total Length:    139418
+  Temp File:       C:\Users\James\AppData\Local\Temp\art5434394284540643046.pack
+Successfully unpacked packed file scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-library:2.11.1
+Downloading library org.scala-lang:scala-library:2.11.1
+Unpacking packed file scala-library-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 341368
+  Total Length:    5984083
+  Temp File:       C:\Users\James\AppData\Local\Temp\art1241956012567533831.pack
+Successfully unpacked packed file scala-library-2.11.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Downloading library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Unpacking packed file scala-parser-combinators_2.11-1.0.1.jar.pack.xz
+  Signed
+  Checksum Length: 37614
+  Total Length:    273457
+  Temp File:       C:\Users\James\AppData\Local\Temp\art6076907455230278870.pack
+Successfully unpacked packed file scala-parser-combinators_2.11-1.0.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-reflect:2.11.1
+Downloading library org.scala-lang:scala-reflect:2.11.1
+Unpacking packed file scala-reflect-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 291610
+  Total Length:    3217021
+  Temp File:       C:\Users\James\AppData\Local\Temp\art1287204330795811687.pack
+Successfully unpacked packed file scala-reflect-2.11.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-swing_2.11:1.0.1
+Downloading library org.scala-lang:scala-swing_2.11:1.0.1
+Unpacking packed file scala-swing_2.11-1.0.1.jar.pack.xz
+  Signed
+  Checksum Length: 39019
+  Total Length:    888907
+  Temp File:       C:\Users\James\AppData\Local\Temp\art1254740146109464505.pack
+Successfully unpacked packed file scala-swing_2.11-1.0.1.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-xml_2.11:1.0.2
+Downloading library org.scala-lang:scala-xml_2.11:1.0.2
+Unpacking packed file scala-xml_2.11-1.0.2.jar.pack.xz
+  Signed
+  Checksum Length: 35380
+  Total Length:    739509
+  Temp File:       C:\Users\James\AppData\Local\Temp\art1595509660492120654.pack
+Successfully unpacked packed file scala-xml_2.11-1.0.2.jar.pack.xz
+Checking "C:\Users\James\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library lzma:lzma:0.0.1: Not Downloading
+Considering library net.sf.jopt-simple:jopt-simple:4.5: Not Downloading
+Considering library com.google.guava:guava:17.0: Not Downloading
+Considering library org.apache.commons:commons-lang3:3.3.2: Not Downloading
