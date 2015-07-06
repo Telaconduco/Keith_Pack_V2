@@ -1,10 +1,7 @@
-/**
- * Created by James on 6/25/2015.
- */
 public class progressbarupdate implements Runnable {
-    InstallMods IM;
-    boolean running = true;
-    Thread thread2;
+    private InstallMods IM;
+    private boolean running = true;
+    private Thread thread2;
     public progressbarupdate(InstallMods IM){
         this.IM = IM;
         thread2 = new Thread(this);
@@ -27,7 +24,7 @@ public class progressbarupdate implements Runnable {
             IM.labels[5].setText(fdone + "%");
         }
         try{
-            thread2.sleep(500);
+            Thread.sleep(500);
         }catch(Exception e){
             e.printStackTrace();
         }

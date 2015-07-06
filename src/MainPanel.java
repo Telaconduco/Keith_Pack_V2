@@ -4,9 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URI;
 
-/**
- * Created by James on 6/24/2015.
- */
+
 public class MainPanel {
 
     public JPanel thepanel;

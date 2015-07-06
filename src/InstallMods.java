@@ -3,22 +3,17 @@ import java.awt.*;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.Socket;
-import java.nio.Buffer;
 import java.nio.file.Files;
-import java.util.List;
 
-/**
- * Created by James on 6/24/2015.
- */
 public class InstallMods extends JPanel implements Runnable{
-    public JProgressBar progressBar1;
-    public JProgressBar progressBar2;
-    public JProgressBar progressBar3;
-    public JLabel[] labels = new JLabel[6];
+    public final JProgressBar progressBar1;
+    public final JProgressBar progressBar2;
+    public final JProgressBar progressBar3;
+    public final JLabel[] labels = new JLabel[6];
     public float iforge;
     public float ipercentage;
     public float idone;
-    Thread thread;
+    private final Thread thread;
     public InstallMods(){
         this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
         progressBar1 = new JProgressBar();
@@ -78,8 +73,8 @@ public class InstallMods extends JPanel implements Runnable{
                 System.out.println("Connected...");
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 File modfolder = new File(modziplocation.getPath() + "/mods");
-                if (modfolder.exists() == false) {
-                    if (forge.exists() == false) {
+                if (!modfolder.exists()) {
+                    if (!forge.exists()) {
                         System.out.println("Forge not installed");
                         pw.println("getforge");
                         pw.println("");
@@ -92,8 +87,8 @@ public class InstallMods extends JPanel implements Runnable{
                         Desktop.getDesktop().open(forge);
                         JOptionPane.showMessageDialog(this, "Please now RUN Minecraft Forge and keep the Installer open. Press ok when complete.");
                         boolean ran = false;
-                        while (modfolder.exists() == false) {
-                            if (ran == false) {
+                        while (!modfolder.exists()) {
+                            if (!ran) {
                                 JOptionPane.showMessageDialog(this, "Forge Installation Error. Please Try Again.");
                                 ran = true;
                                 Desktop.getDesktop().open(forge);
@@ -195,7 +190,7 @@ public class InstallMods extends JPanel implements Runnable{
             e.printStackTrace();
         }
     }
-    public void deleteFiles(File file){
+    private void deleteFiles(File file){
         File[] files = file.listFiles();
         if(files != null) {
             for (int i = 0; i < files.length; i++) {
@@ -208,7 +203,7 @@ public class InstallMods extends JPanel implements Runnable{
             }
         }
         }
-    public void downloadFile(File file,InputStream is, PrintWriter pw,long totalbytes){
+    private void downloadFile(File file,InputStream is, PrintWriter pw,long totalbytes){
         try {
             FileOutputStream fos = new FileOutputStream(file);
             BufferedOutputStream bos = new BufferedOutputStream(fos);
@@ -235,9 +230,9 @@ public class InstallMods extends JPanel implements Runnable{
             d.printStackTrace();
         }
     }
-    public void downloadFiles(InputStream is, BufferedReader reader, PrintWriter pw, boolean readfiles, File file, long mtotalbytes, long brequired) {
+    private void downloadFiles(InputStream is, BufferedReader reader, PrintWriter pw, boolean readfiles, File file, long mtotalbytes, long brequired) {
         try {
-            while (readfiles == true) {
+            while (readfiles) {
                 String type = reader.readLine();
                 if (type.equals("f")) {
                     System.out.println("File");

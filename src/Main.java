@@ -1,9 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by James on 6/24/2015.
- */
+
 public class Main {
     public static void main(String args[]){
         JFrame window = new JFrame("Keith Pack V2");
